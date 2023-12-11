@@ -80,7 +80,7 @@ function ListItems(){
   return <>
   <div>
   <h1>List of Items to Shop From</h1>
-  {initialData.map(item=> <p key={item.id}>{item.product} {item.price} <button>Add to Cart</button></p>)}
+  {initialData.map(item=> <p key={item.id}>{item.product} Price |  N{item.price} <button>Add to Cart</button></p>)}
  
   </div>
   </>
